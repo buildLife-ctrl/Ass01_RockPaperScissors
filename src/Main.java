@@ -43,6 +43,8 @@ public class Main {
                                 continYN = scan.nextLine();
                                 if (continYN.equalsIgnoreCase("y") || continYN.equalsIgnoreCase("n")) {
                                     validInput = true;
+                                } else {
+                                    System.out.println("Please input \"Y\" or \"N\".");
                                 }
                             } while (!validInput);
                         } else {
