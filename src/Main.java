@@ -54,5 +54,7 @@ public class Main {
                 }
             } while (!validInput);
         } while (continYN.equalsIgnoreCase("y"));
+
+        System.exit(0); //terminates since the players do not want to continue
     }
 }
